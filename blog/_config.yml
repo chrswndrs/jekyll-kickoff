@@ -4,7 +4,7 @@ source:      .
 include:     ['.htaccess']
 exclude:     []
 keep_files:  ['.git','.svn']
-gems:        []
+gems:        [bourbon, bitters, neat]
 timezone:    nil
 encoding:    nil
 
@@ -48,3 +48,5 @@ kramdown:
 
 redcloth:
   hard_breaks: true
+sass:
+    sass_dir: scss
